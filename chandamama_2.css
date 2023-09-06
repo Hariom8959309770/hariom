@@ -124,3 +124,39 @@ border-color:blueviolet;
   .u1{text-align: center;}
   .u2{text-align: center;}
   .u3{text-align: center;}
+  .Click_here {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  
+    /* Add a sun rays effect */
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      z-index: -1;
+      background-image: linear-gradient(to right, transparent, #fff 25%, transparent);
+      animation: sun-rays 1s infinite;
+    }
+  
+    @keyframes sun-rays {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
+  }
+  

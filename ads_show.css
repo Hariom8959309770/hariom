@@ -1,0 +1,21 @@
+.floating-box {
+    float: left;
+    width: 200px;
+    background-color: #13ce67;
+    padding: 10px;
+  }
+  .box {
+    position: relative;
+    width: auto;
+    height: auto;
+    font: 100;
+    background-color: #fff;
+    border: 1px solid #c40707;
+    cursor: pointer;
+  }
+  
+  .box:hover {
+    box-shadow: 0 0 10px 10px #000;
+  }
+  
+  
