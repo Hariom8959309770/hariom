@@ -1,5 +1,8 @@
 
-
+.body_set{display: flex;
+   height: auto;
+  width: auto;
+}
 .contentall_1{
 
     height: 100;
