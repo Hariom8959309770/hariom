@@ -1,3 +1,21 @@
+.xxxx{display: contents;
+  margin: 1px;
+  border: solid 5px;
+  text-wrap: none;
+  padding: 2px;}
+.xxx{font-size: 20px;
+  font-weight: 200;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 15px solid;
+  background-color: aquamarine;
+  margin-top: 7px;
+  margin-bottom: 15px;
+text-decoration: double;}
+
+.all_adz{display: inline-block;}
+.ad_1a{text-align: left;}
+.ad_2a{text-align: right;}
+
 .Myform_{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0TgjUdlNnOiBr0ke_g_Vmjmjv6StiVo36g&usqp=CAU);
     margin-top: 5px;
     margin-bottom: 5px;
